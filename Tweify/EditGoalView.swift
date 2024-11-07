@@ -15,11 +15,13 @@ struct EditGoalView: View {
     
     @State private var name: String
     @State private var goalAmount: String
+    @State private var amountSaved: String
     
     init(goal: Goal) {
         self.goal = goal
         _name = State(initialValue: goal.name ?? "")
         _goalAmount = State(initialValue: String(goal.goalAmount))
+        _amountSaved = State(initialValue: String(goal.amountSaved))
     }
     
     var body: some View {
@@ -28,9 +30,14 @@ struct EditGoalView: View {
                 Section(header: Text("Goal Name")) {
                     TextField("New MacBook?", text: $name)
                 }
-                
+
                 Section(header: Text("Goal Amount")) {
-                    TextField("How much?", text: $goalAmount)
+                    TextField("1999.99?", text: $goalAmount)
+                        .keyboardType(.decimalPad)
+                }
+                
+                Section(header: Text("Amount Saved")) {
+                    TextField("340.00?", text: $amountSaved)
                         .keyboardType(.decimalPad)
                 }
             }
@@ -56,6 +63,7 @@ struct EditGoalView: View {
         withAnimation {
             goal.name = name
             goal.goalAmount = Double(goalAmount) ?? 0
+            goal.amountSaved = Double(amountSaved) ?? 0
             
             try? viewContext.save()
             dismiss()
