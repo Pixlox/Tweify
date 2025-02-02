@@ -18,6 +18,6 @@ Inspired by the now taken-down Reify; a near drop-in replacement, with all the b
 <img src="https://github.com/user-attachments/assets/c284bf94-0f9a-4d2a-887b-dfc3d3c2c58f" width="300" />
 
 ## Distribution
-Tweify is _not_ published on the App Store. Self-deploy if you have a Mac. But, to be honest, if you do, it'd be better to try out the [macOS version](https://github.com/Pixlox/Tweify/tree/macos).
+Tweify is _not_ published on the App Store. Self-deploy if you have a Mac.
 
 > i'm too broke, xd.
