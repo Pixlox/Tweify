@@ -17,4 +17,6 @@ Inspired by the now taken-down Reify; a near drop-in replacement, with all the b
 > None yet.
 
 ## Distribution
-Have a Mac? Great. Download the binary from releases to start using Tweify.
+Have a Mac? Great. ~Download the binary from releases to start using Tweify.~
+
+I take it back, compile it yourself, xd.
