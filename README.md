@@ -6,17 +6,15 @@ Inspired by the now taken-down Reify; a near drop-in replacement, with all the b
 > Reify? Two-eify? Tweify. (I'm sorry.)
 
 ## What have you got?
-- [x] Smooth and clean UI, powered by native SwiftUI. 🚀
-- [x] Simple tracking of goals, with unlimited transaction view. 💸
-- [x] Graphs and statistics for your goal. 📈
-- [x] Goal reaching prediction. 🤖
-- [x] Free, and open source! 🤗
+- [x] Smooth and clean UI, powered by native SwiftUI. 
+- [x] Simple tracking of goals, with unlimited transaction view. 
+- [x] Graphs and statistics for your goal. 
+- [x] Goal reaching prediction. 
+- [x] Free, and open source! 
 
 ## Screenshots
 
 > None yet.
 
 ## Distribution
-Have a Mac? Great. ~Download the binary from releases to start using Tweify.~
-
-I take it back, compile it yourself, xd.
+Have a Mac? Great. compile it yourself, xd.
